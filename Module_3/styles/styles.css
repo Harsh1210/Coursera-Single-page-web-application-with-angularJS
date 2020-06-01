@@ -1,18 +1,41 @@
-h1 {
-    margin-bottom: 30px;
+.input {
+  float:left;
+  clear:right;
+  width: 100%;
 }
 
-input[type="text"] {
-    width: 200px;
-    float: left;
+.button {
+  float:right;
+  clear: left;
 }
 
-.narrow-button {
-    float: left;
-    margin-left: 10px;
+.demo-card-wide {
+  width: 800px;
+  margin: auto;
 }
 
-.search {
-    display: inline-block;
-    margin-bottom: 10px;
+.page-content {
+  padding-top: 32px;
+}
+
+.mdl-card {
+  min-height: 0px;
+}
+
+.mdl-card__supporting-text {
+  width: auto;
+}
+
+#search {
+  padding: 8px 16px;
+}
+
+#result {
+  margin-top: 32px;
+  margin-bottom: 32px;
+  padding: 16px;
+}
+
+.message {
+  padding: 8px 16px;
 }
